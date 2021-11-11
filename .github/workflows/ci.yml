@@ -10,5 +10,5 @@ jobs:
     - name: Run Django unit test
       run: 
         pip install --upgrade pip
-        pip install --user django
+        pip install django
         python manage.py test 
